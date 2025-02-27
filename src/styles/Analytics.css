@@ -1,0 +1,12 @@
+.chart-container {
+    width: 300px;  /* You can adjust this value */
+    height: 150px; /* You can adjust this value */
+    margin: auto;  /* Optional: Center the chart */
+    display: flex;
+    
+  }
+  
+  .box-analytic {
+    display: flex;
+    padding-top: 0;
+  }

@@ -1,0 +1,62 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+h2 {
+    margin:30px;
+    margin-bottom: 0;
+    font-size: 18px;
+    color:rgb(76, 78, 73);
+    text-align: center;
+}
+
+.box {
+    padding: 60px;
+    padding-bottom: 0;
+    display: flex;
+}
+
+.para {
+    margin:30px;
+    
+
+ p {
+    font-size: 18px;
+    padding-top: 15px;
+}
+h1{
+
+    font-size: 30px;
+    font-style: italic;
+    background: linear-gradient(90deg, green, yellow);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  position: relative;
+  display: inline-block;
+}
+
+h1::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -5px; /* Adjust based on your font size */
+    width: 100%;
+    height: 4px; /* Thickness of the underline */
+    background: linear-gradient(90deg, green, yellow);
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.2s ease-in;
+  }
+  
+  h1:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+}
+
+
+
+/* rgb(202, 222, 210); */
